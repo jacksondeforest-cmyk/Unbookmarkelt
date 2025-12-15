@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarklet Unpacker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bookmarklet Unpacker</h1>
+        <p>Paste your bookmarklet below to unbookmarklet it back to its original JavaScript code.</p>
+
+        <textarea id="bookmarklet-input" placeholder="Paste your bookmarklet here..."></textarea>
+        <button id="unpack-btn">Unbookmarklet</button>
+
+        <h2>Decoded Script</h2>
+        <pre id="decoded-output"></pre>
+
+        <button id="download-btn" style="display:none;">Download Script</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
